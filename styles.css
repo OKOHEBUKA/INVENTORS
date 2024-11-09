@@ -1,0 +1,102 @@
+body{
+    background-image: url(Rectangle\ 1.png);
+    ;
+
+}
+    
+
+nav ul{
+    
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+nav li{
+    height: 27px;
+    padding:0 30px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    color:black;
+    
+}
+
+nav ul li:first-of-type{
+    margin-right: auto;
+    top:36px;
+    left:120px;
+    font-family: Constantia;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color:#FFFFFF;
+    
+    
+}
+nav ul li:nth-of-type(2){
+    width:54px;
+    top:36px;
+    left:758px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+}
+nav ul li:nth-of-type(3){
+    width:75px;
+    top:36px;
+    left:875px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+}
+nav ul li:nth-of-type(4){
+    width:36px;
+    top:36px;
+    left:1013px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+}
+nav ul li:nth-of-type(5){
+      width:208;
+      height:40px;
+      top:29px;
+      left:1112px;
+      color:#FFFFFF;
+      font-family: Constantia;
+      border-radius: 6px;
+      background-color: #650dbd;
+      
+}
+nav ul li a {
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+.container{
+    position:relative;
+    margin-top: 15%;
+    margin-left: 25%;
+    
+}
+nav ul li:nth-of-type(2):hover{
+    background-color:#650dbd;
+    border-radius: 6px;
+    transition: 0.6s;
+}
+nav ul li:nth-of-type(3):hover{
+    background-color:#650dbd;
+    border-radius: 6px;
+    transition: 0.6s;
+}
+@media(max-width:500px){
+    body{
+        background-attachment: fixed;
+        background-size: 300%;
+        background-repeat: no-repeat;
+    }
+    nav ul li:nth-of-type(5){
+        padding: 20px;
+    }
+}
+
+
